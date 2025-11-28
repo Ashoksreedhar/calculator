@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(42, 45, 49);
+    font-family: "Rubik", sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.sidekey1 {
+    width: 4px;
+    height: 30px;
+    background-color: #fff;
+    margin-top: -25em;
+    border-radius: 2px;
+    border: solid 2px #fff;
+}
+
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    height: 620px;
+    width: 300px;
+    border: solid 5px #fff;
+    background-color: black;
+    border-radius: 50px;
+    display: flex;
+    box-shadow: 38px 17px 31px 20px rgba(0, 0, 0, 0.65);
+}
+
+
+
+.top-bar {
+    position: relative;
+    left: 200px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 5px;
+
+}
+
+.top-bar p {
+
+    font-size: 13px;
+    padding: 4px;
+    font-weight: bold;
+}
+
+.top-bar i {
+    padding: 4px;
+    font-size: 12px;
+    position: relative;
+    left: 12em;
+}
+
+
+
+.cal-screen {
+    position: relative;
+    top: 3em;
+    left: 65px;
+    width: 285px;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+    border: solid rgb(2, 2, 2);
+    background-color: black;
+    color: #fff;
+    padding-left: 1px;
+    padding: 2px;
+    text-align: end;
+    font-size: 48px;
+    pointer-events: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.row {
+    display: flex;
+    position: relative;
+    right: 208px;
+    top: 16em;
+    gap: 1px;
+}
+
+.btn {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    background: rgb(46, 44, 44);
+    border: solid 2px black;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+#btn1 {
+    background-color: rgb(220, 122, 11);
+}
+
+#btn2 {
+    font-size: 20px;
+    background-color: rgb(113, 102, 102);
+}
+
+#btn3 {
+    font-size: 20px;
+    background: rgb(46, 44, 44);
+}
+
+
+.btn:hover {
+    background: rgb(24, 23, 23);
+}
+
+#btn1:hover {
+    background-color: rgb(103, 61, 13);
+}
+
+
+
+#btn2 :hover {
+    background: rgb(201, 41, 41);
+}
